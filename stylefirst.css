@@ -1,0 +1,38 @@
+span,a{
+    color:white;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align: justify;
+    
+}
+marquee{
+    color:#080308;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: justify;
+    
+}
+p{
+    color:white;
+    text-align: justify;
+    text-transform: capitalize;
+}
+label{
+    color:white;
+}
+figcaption{
+    color:rgb(8, 75, 75);
+    text-align: center;
+}
+input[type=submit] {
+    background-color: orange;
+    border: none;
+    text-decoration: none;
+    color: white;
+    padding: 20px 20px;
+    margin: 20px 20px;
+    cursor: pointer;
+ }
+ li{
+    color:white;
+ }

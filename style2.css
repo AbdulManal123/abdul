@@ -1,0 +1,19 @@
+.abdu{
+    background-color:aqua;
+    font-size:20px;
+    font-family:arial;
+    font-weight:lighter;
+    font-style:normal;
+    text-align:justify;
+    word-spacing: 2px;
+    letter-spacing: 0.3px;
+    text-decoration:overline;
+    text-transform: capitalize;
+}
+.p{
+    color:red;
+    font-size: 100px;
+    text-shadow: 120px;
+    font-style: bold;
+    text-shadow: 12px 13px 45px;
+}

@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="olive">
+    <div style="width:100%;height:400px">
+
+        <div style="width:50%;height:400px;float:left;">
+    <table border="2"width="100%"height="340px"bgcolor="yellow">
+        <caption style="background-color:red;">STUDENT TABLE</caption>
+        <thead>
+            <th style="background-color:rgb(143, 143, 240)">Name</th>
+            <th style="background-color:rgb(222, 95, 172)">Roll</th>
+            <th style="background-color:rgb(78, 153, 112)">Class</th>
+            <th style="background-color:rgb(246, 115, 139)">Subject</th>
+            <th style="background-color:rgb(56, 203, 232)">academy</th>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td align="center">Abdul</td>
+                <td align="center">1</td>
+                <td align="center">10</td>
+                <td align="center">Math</td>
+                <td align="center">Grace</td>
+            </tr>
+            <tr>
+                <td align="center">Joheb</td>
+                <td align="center">2</td>
+                <td align="center">10</td>
+                <td align="center">English</td>
+                <td align="center">Grace</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr align="center">
+                <td colspan="5"style="background-color:blue;">THIS IS MY TABLE</td>
+            </tr>
+        </tfoot>
+    </table>
+    </div>
+    <div style="width:50%;height:400px;float:right;">
+        <center>
+    <form method="POST"action="assignment.html" style="background-color:aquamarine;">
+        <label>User Name</label><br/>
+        <input type="text"name="uname"/><br/><br/>
+        <label>Roll</label><br/>
+        <input type="text"name="uroll"/><br/><br/>
+        <label>Class</label><br/>
+        <input type="radio"name="uclass"/>class10
+        <input type="radio"name="uclass"/>class11
+        <input type="radio"name="uclass"/>class12<br/><br/>
+        <label>Subject</label><br/>
+        <select style="background-color:brown;">
+            <option>Math</option>
+            <option>science</option>
+            <option>eng</option>
+        </select><br/><br/>
+        <label>Academy</label><br/>
+        <input type="radio"name="uac"/>grace high school
+        <input type="radio"name="uac"/>rose high school<br/>
+
+    </form>
+</center>
+    </div>
+
+</div>
+</body>
+</html>
